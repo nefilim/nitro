@@ -26,7 +26,7 @@ object Josephus extends App {
       }
     }
 
-    if (n < 0 || k < 1)
+    if (n < 1 || k < 1)
       return 0
 
     solver match {

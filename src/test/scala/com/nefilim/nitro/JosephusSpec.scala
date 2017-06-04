@@ -16,6 +16,7 @@ class JosephusSpec extends FlatSpec with Matchers {
 
   "Invalid parameters" should "return 0" in {
     solve(-1, 1) should be (0)
+    solve(0, 0) should be (0)
     solve(1, 0) should be (0)
     solve(5, -2) should be (0)
   }
